@@ -11,14 +11,14 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Employee {
+public class Logs {
 	@Id
 private String Id;
-private String name;
-private String jobTitle;
-private String companyName;
-private String city;
-private String state;
+private String date;
+private String status;
+private String data;
+private String indexId;
+private String appName;
 
 
 }
