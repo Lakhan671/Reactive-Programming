@@ -12,9 +12,6 @@ public class FluxApplication {
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = SpringApplication.run(FluxApplication.class, args);
 		
-		for (String name : applicationContext.getBeanDefinitionNames()) {
-			System.out.println(name);
-		}
 	}
 
 }
