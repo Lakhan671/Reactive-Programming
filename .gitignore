@@ -70,7 +70,7 @@ Thumbs.db
 /nbdist/
 /.nb-gradle/
 /build/
-
+/target/
 ### VS Code ###
 .vscode/
 /spring-cloud-config-server/target/classes/
